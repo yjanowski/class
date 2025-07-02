@@ -1,0 +1,247 @@
+header {
+    max-width: auto;
+}
+
+.menu {
+    background-color: rgba(235, 217, 217, 0.854);
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    border: 1px solid black
+}
+
+.contact {
+    background-color: rgba(235, 217, 217, 0.854);
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid black
+}
+
+nav {
+
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgb(97, 8, 8);
+    font-family: "Nunito", sans-serif;
+   
+
+}
+audio{
+    width: 100%;
+    height: 10px;
+    display: inlin;
+}
+
+
+div .primary-header {
+    background-color: rgb(97, 8, 8);
+font-family: "Nunito", sans-serif;
+    padding: 5px;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+
+
+h1 {
+    font-weight: 800;
+    font-size: 40px;
+font-family: "Nunito", sans-serif;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    letter-spacing: 15px;
+    text-shadow: 3px 3px 21px rgba(97, 8, 8, 0.769);
+    transform: skew(-10deg);
+
+
+}
+
+h2 {
+    color: rgb(97, 8, 8);
+    font-weight: 800;
+    font-size: 45px;
+font-family: "Nunito", sans-serif;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 0px;
+}
+h3{
+    background-image: url(Images/Steakhouse/steakhouse-main.jpg);
+background-position: center;
+background-size: cover;
+line-height: 500px;
+border-radius: 6px;
+margin-top: 4px;
+margin-bottom: 4px;
+font-size: 2.5em;
+text-align: center;
+color: white;
+font-family: "Nunito", sans-serif;
+border: 1px solid black;
+opacity: 0.8;
+
+
+}
+
+h5 {
+    font-size: 24px;
+}
+
+
+p {
+
+    margin: 0 auto;
+    max-width: 200px;
+    min-width: 10px;
+font-family: "Nunito", sans-serif;
+
+}
+
+ul {
+
+    margin: 0 auto;
+    padding-left: 0px;
+font-family: "Nunito", sans-serif;
+    max-width: 220px;
+}
+table{
+    
+    border: 1px solid black;
+    border-radius: 6px;
+   border-collapse:collapse;
+   
+    text-align: center;
+    margin: auto;
+
+}
+td{
+   border-top: 1px solid black;
+    
+}
+
+
+#tagline {
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    max-width: 5000px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+ 
+font-family: "Meie Script";
+    transform: skew(-10deg)
+}
+
+.primary-header {
+    font-size: 30px;
+font-family: "Nunito", sans-serif;
+    border: 5px;
+    font-weight: 800;
+    /* border-color: black;
+    border-style: dotted; */
+    background-color: rgb(97, 8, 8);
+    max-width: 300px;
+    color: white;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 8px;
+
+}
+
+.secondary-header {
+    color: rgb(97, 8, 8);
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+#logo {
+    border-radius: 30px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    max-height: 100px;
+    display: block
+        /* box-shadow: 3px 3px 21px rgba(97, 8, 8, 0.769); */
+        /*   float: right; */
+}
+
+.menu-items {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(235, 217, 217);
+    margin: 10px auto;
+    max-width: 60%;
+   
+}
+
+.menu-items:hover {
+    scale: 1.1 1.1;
+}
+
+.m-i-odd:hover {
+    rotate: -5deg;
+}
+
+.m-i-even:hover {
+    rotate: 5deg;
+}
+
+.menu-images:hover {
+    scale: 2 2;
+}
+
+
+.menu-images {
+    border-radius: 50px;
+    max-width: 100px;
+    margin: 10px auto;
+    text-align: center;
+    display: block;
+    max-height: 100px;
+     cursor:zoom-in;
+}
+
+#header-main-image {
+    object-fit: cover;
+    max-height: 500px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 5px;
+    border-radius: 8px;
+}
+video {
+    object-fit: cover;
+    max-height: 500px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    border-radius: 8px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-align: left;
+    margin: 0;
+    font-weight: 800;
+}
+
+a:hover {
+    color: rgba(235, 217, 217, 0.854);
+}
