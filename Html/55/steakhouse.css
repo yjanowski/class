@@ -114,16 +114,56 @@ font-family: "Nunito", sans-serif;
 }
 table{
     
-    border: 1px solid black;
-    border-radius: 6px;
-   border-collapse:collapse;
+    
+    
    
+    border-width: 3px;
+   border-collapse:separate;
+   border-spacing: 0;
+   border-radius: 6px;
+   width: 80%;
     text-align: center;
-    margin: auto;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    background-color:rgb(235, 217, 217);
+     font-family: "Nunito", sans-serif;
+    
+
+}
+th{
+    background-color:rgb(97, 8, 8);
+    color: white;
+    padding: 15px;
+    padding-left: 10px ;
+    padding-right: 10px;
+    
+    border-bottom: none;
+}
+tbody tr:nth-child(2n){
+    background-color:rgba(97, 8, 8, 0.712);
+    color: white;
 
 }
 td{
-   border-top: 1px solid black;
+
+   padding: 10px;
+    
+}
+table thead tr th:first-child {
+  border-top-left-radius: 12px;
+}
+
+table thead tr th:last-child {
+  border-top-right-radius: 12px;
+}
+caption{
+    color:rgb(97, 8, 8);
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: 800;
+   
     
 }
 
