@@ -170,6 +170,7 @@ font-family: "Nunito", sans-serif;
     background-color: rgb(235, 217, 217);
     margin: 10px auto;
     max-width: 60%;
+    transition-duration: 2s;
    
 }
 
