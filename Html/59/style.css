@@ -1,0 +1,276 @@
+body {
+    margin: 0px 0px 0px 0px;
+    font-family: helvetica, arial, sans-serif;
+}
+.italics {
+    font-style: italic;
+}
+@media screen and (width < 800px){
+.main {
+    display: grid;
+    max-width: 100%;
+    
+    grid-template-areas:
+        'header'
+        'products'
+        'computers'
+        'image1'
+        'text1'
+        'choirs'
+        'video'
+        'text2'
+        'candy'
+        'image2'
+        'text3'
+        'form'
+        'financials'
+        'table'
+        'about';
+}
+.computers {
+    text-align: center;
+    grid-area: computers;
+    
+}
+.choirs {
+    text-align: center;
+    grid-area: choirs;
+}
+.candy {
+    text-align: center;
+    grid-area: candy;
+}
+.image1 {
+    grid-area: image1;
+    text-align:center;
+}
+.video {
+    grid-area: video;
+    text-align: center;
+}
+.image2 {
+    grid-area: image2;
+    text-align:center;
+}
+.text1 {
+    grid-area: text1;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    
+}
+
+.text2 {
+    grid-area: text2;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.text3 {
+    grid-area: text3;
+    margin-left: 10%;
+    margin-right: 10%;
+  
+}
+}
+nav {
+    width: 100%;
+    background-color: black;
+    margin: 0px;
+}
+header {
+    position: sticky;
+    top: 0;
+}
+ul {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    justify-content: space-between;
+    margin-left: 10%;
+    max-width: 300px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+li {
+    list-style: none;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+h1 {
+    margin-top: 0px;
+    padding-top: 16px;
+}
+h2 {
+    padding-bottom: 16px;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: lightgrey;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#products, #financials, #about {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#form {
+    grid-area: form;
+    border-radius: 5px;
+    background-color: lightgrey;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+#name, #email {
+    border-radius: 5px;
+    box-shadow: 2px 2px;
+}
+#submit {
+    border-radius: 2px;
+
+}
+.table {
+    display: flex;
+    justify-content: center;
+    overflow: scroll;
+
+}
+table {
+    border-collapse: collapse;
+    width: 60%;
+}
+tr:nth-child(even) {
+    background-color: lightblue;
+}
+tr:first-child, td:first-child {
+    font-weight: bold;
+    text-align: center;
+}
+td {
+    border: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+td:last-child {
+    color: red;
+}
+tr:not(:first-child) {
+    text-align: right;
+}
+tr:last-child {
+    background-color: white;
+}
+footer {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    color: white;
+    position: sticky;
+    bottom: 0;
+    margin-bottom: 0px;
+}
+footer p {
+    margin-left: 10%;
+}
+@media screen and (width >=800px) {
+    .main {
+        display: grid;
+        max-width: 80%;
+        grid-template-areas:
+            'computers choirs candy'
+            'image1 video image2'
+            'text1 text2 text3';
+        margin-left: 10%;
+        margin-right: 10%;
+        align-items: center;
+        place-items: center;
+    }
+.computers {
+    grid-area: computers;
+    text-align: center;
+     padding-right: 4px;
+    padding-left: 4px;
+    border-right: 1px solid black
+    
+}
+.choirs {
+    grid-area: choirs;
+    text-align: center;
+    padding-right: 4px;
+    padding-left: 4px;
+    border-right: 1px solid black;
+}
+.candy {
+    grid-area: candy;
+    text-align: center;
+    padding-right: 2px;
+    padding-left: 2px;
+    
+    
+}
+.image1 {
+    grid-area: image1;
+    padding-right: 4px;
+    padding-left: 4px;
+    border-right: 1px solid black
+}
+.video {
+    grid-area: video;
+    padding-right: 4px;
+    padding-left: 4px;
+    border-right: 1px solid black
+}
+.image2 {
+    grid-area: image2;
+    text-align:center;
+    padding-right: 4px;
+    padding-left: 4px;
+    
+}
+.text1 {
+    grid-area: text1; 
+     padding-right: 4px;
+    padding-left: 4px;
+    border-right: 1px solid black
+}
+
+.text2 {
+    grid-area: text2; 
+     padding-right: 4px;
+    padding-left: 4px;
+    border-right: 1px solid black
+}
+
+.text3 {
+    grid-area: text3;
+    padding-right: 4px;
+    padding-left: 4px;
+    
+    
+}
+
+img, video {
+    max-width: 100%;
+    height: auto;
+    display:flex;
+    text-align: center;
+}
+
+}
+
