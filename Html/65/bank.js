@@ -2,26 +2,25 @@
 
 const bankAccount = {
     balance: 1000,
-    
-    performTransaction: function(transactionAmount){
-        return{
-           balance: this.balance + transactionAmount
+
+    performTransaction: function (transactionAmount) {
+        return {
+            balance: this.balance + transactionAmount
         }
     }
-    
+
 }
 
 console.log(bankAccount.performTransaction(100));
 
-function createBankAccount(balanceInput)
-{
+function createBankAccount(balanceInput) {
     balance: balanceInput,
-    function performTransaction(transactionAmount){
-        return{
-            balance: this.balance + transactionAmount
-            
+        function performTransaction(transactionAmount) {
+            return {
+                balance: this.balance + transactionAmount
+
+            }
         }
-    }
 
 }
 const bankAccount1 = createBankAccount(1000);
