@@ -1,0 +1,20 @@
+[
+     {
+          "first": "Chaim",
+          "last": "Yankel",
+          "email": "cyemail@gmail.com",
+          "phone": "3456789012"
+     },
+     {
+          "first": "Shlomo",
+          "last": "Mayer",
+          "email": "smemail@gmail.com",
+          "phone": "3454389012"
+     },
+     {
+          "first": "Yaakov",
+          "last": "Dovid",
+          "email": "ydemail@gmail.com",
+          "phone": "3943289012"
+     }
+]

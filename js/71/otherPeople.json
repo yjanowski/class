@@ -1,0 +1,20 @@
+[
+     {
+          "first": "Yehuda",
+          "last": "Gross",
+          "email": "ygemail@gmail.com",
+          "phone": "3456789012"
+     },
+     {
+          "first": "Dovid",
+          "last": "Smith",
+          "email": "dsemail@gmail.com",
+          "phone": "3454389012"
+     },
+     {
+          "first": "Meir",
+          "last": "Cohen",
+          "email": "mcemail@gmail.com",
+          "phone": "3943289012"
+     }
+]

@@ -1,0 +1,55 @@
+[
+    {
+        "name": "Chicken Nuggets with Sweet and Sour Dipping Sauce",
+        "ingredients": [
+            "1 pound (450 grams) chicken cutlets, cut into nuggets",
+            "1 cup flour",
+            "1/2 teaspoon baking powder",
+            "1–2 teaspoons salt",
+            "1 tablespoon Pereg Sweet Paprika",
+            "1/2 cup water",
+            "2 teaspoons oil, plus more for frying",
+            "2 eggs"
+        ],
+        "recipeImage": "https://images.kosher.com/uploads/FT_763_Gruen_Chicken-Nuggets-with-Sweet-and-Sour-Dipping-Sauce.webp"
+    },
+    {
+        "name": "Greek Salmon Dinner",
+        "ingredients": [
+            "1 and 1/2 pounds salmon",
+            "salt",
+            "pepper",
+            "squeeze of lemon",
+            "8 ounces chopped Romaine lettuce",
+            "1/2 English cucumber, diced",
+            "1/4 red onion, diced or sliced",
+            "1 red pepper, diced",
+            "1 cup Gefen Olives, halved",
+            "2 cups cooked rice or quinoa, for serving",
+            "1/2 cup Gefen Light Mayonnaise",
+            "1/3 cup lemon juice",
+            "1/2 teaspoon salt",
+            "dash crushed red pepper",
+            "1/4 teaspoon Gefen Oregano",
+            "1/4 teaspoon dried dill, such as Gefen",
+            "2 cloves garlic, crushed or 2 cubes Gefen Frozen Garlic"
+        ],
+        "recipeImage": "https://images.kosher.com/details.slide/g/r/Greek-Salmon-W.jpg"
+    },
+    {
+        "name": "Bundt Noodle Kugel",
+        "ingredients": [
+            " 1/2 cup butter, melted",
+            "3/4 cup packed Haddar Dark Brown Sugar",
+            "1 cup chopped walnuts (or other types of nuts or apples, if preferred)",
+            "4 eggs",
+            "2/3 cup granulated sugar",
+            "1 cup sour cream",
+            "3/4 cup Gefen Applesauce",
+            "1 teaspoon salt",
+            "1/2 teaspoon ground cinnamon",
+            "1 pound Manischewitz Medium Egg Noodles, cooked and drained"
+        ],
+        "recipeImage": "https://www.kosher.com/wp-content/uploads/2025/08/Webber-Ruth-Bundt-Noodle-Kugel.webp"
+    }
+]

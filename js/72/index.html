@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Meie+Script&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        text-align: center;
+        font-family: "Roboto";
+        font-size: 20px;
+    }
+    h2{
+        display: none;
+    }
+    select {
+        height: 50px;
+        border-radius: 10px;
+        border: solid black 3px;
+        text-align: center;
+        font-size: 20px;
+        font-family: "Roboto";
+        font-weight: bold;
+
+    }
+    li{
+        list-style-position:inside;
+        text-align: left;
+        padding: 0;
+      
+    }
+
+    img {
+        text-align: center;
+        width: 600px;
+    }
+    ul{
+        width: 400px;
+        text-align: center;
+        margin: auto;
+    }
+</style>
+
+<body>
+    <select name="recipeDropdown" id="recipeDropdown">
+        <option value="" selected disabled hidden>Choose a recipe</option>
+    </select>
+    <h1 id="recipeTitle"></h1>
+    <img id="image" src="" alt="">
+    <h2>Ingredients</h2>
+    <p >
+          <ul id="recipeIngredients">
+        
+    </ul>
+    </p>
+  
+    <script src="getRecipes.js"></script>
+</body>
+
+</html>
